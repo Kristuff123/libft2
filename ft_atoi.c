@@ -32,5 +32,7 @@ int	ft_atoi(const char *str)
 		result = result * 10 + (*str - '0');
 		str++;
 	}
+	if (*str >= '0' && *str <= '9')
+		return (0);
 	return (sign * result);
 }

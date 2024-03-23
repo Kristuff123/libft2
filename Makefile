@@ -3,7 +3,7 @@ NAME = libft.a
 SRCS = $(wildcard *.c)
 OBJS = $(SRCS:.c=.o)
 
-CC = gcc
+CC = clang
 CFLAGS = -Wall -Wextra -Werror
 AR = ar
 ARFLAGS = rcs
